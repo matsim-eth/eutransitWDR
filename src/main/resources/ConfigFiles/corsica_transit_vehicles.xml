@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vehicleDefinitions xmlns="http://www.matsim.org/files/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.matsim.org/files/dtd http://www.matsim.org/files/dtd/vehicleDefinitions_v1.0.xsd">
+	<vehicleType id="Bus">
+		<capacity>
+			<seats persons="70"/>
+			<standingRoom persons="0"/>
+		</capacity>
+		<length meter="18.0"/>
+		<width meter="2.5"/>
+		<accessTime secondsPerPerson="0.5"/>
+		<egressTime secondsPerPerson="0.5"/>
+		<doorOperation mode="serial"/>
+		<passengerCarEquivalents pce="2.8"/>
+	</vehicleType>
+	<vehicleType id="Rail">
+		<capacity>
+			<seats persons="400"/>
+			<standingRoom persons="0"/>
+		</capacity>
+		<length meter="200.0"/>
+		<width meter="2.8"/>
+		<accessTime secondsPerPerson="0.25"/>
+		<egressTime secondsPerPerson="0.25"/>
+		<doorOperation mode="serial"/>
+		<passengerCarEquivalents pce="27.1"/>
+	</vehicleType>
+	<vehicle id="veh_0_bus" type="Bus"/>
+	<vehicle id="veh_1_bus" type="Bus"/>
+	<vehicle id="veh_2_bus" type="Bus"/>
+	<vehicle id="veh_3_bus" type="Bus"/>
+	<vehicle id="veh_4_bus" type="Bus"/>
+	<vehicle id="veh_5_bus" type="Bus"/>
+	<vehicle id="veh_6_bus" type="Bus"/>
+	<vehicle id="veh_7_bus" type="Bus"/>
+	<vehicle id="veh_8_bus" type="Bus"/>
+	<vehicle id="veh_9_bus" type="Bus"/>
+	<vehicle id="veh_10_bus" type="Bus"/>
+	<vehicle id="veh_11_bus" type="Bus"/>
+	<vehicle id="veh_12_bus" type="Bus"/>
+	<vehicle id="veh_13_bus" type="Bus"/>
+	<vehicle id="veh_14_bus" type="Bus"/>
+	<vehicle id="veh_15_bus" type="Bus"/>
+	<vehicle id="veh_16_bus" type="Bus"/>
+	<vehicle id="veh_17_bus" type="Bus"/>
+	<vehicle id="veh_18_bus" type="Bus"/>
+	<vehicle id="veh_19_bus" type="Bus"/>
+	<vehicle id="veh_20_bus" type="Bus"/>
+	<vehicle id="veh_21_bus" type="Bus"/>
+	<vehicle id="veh_22_bus" type="Bus"/>
+	<vehicle id="veh_23_bus" type="Bus"/>
+	<vehicle id="veh_24_bus" type="Bus"/>
+	<vehicle id="veh_25_bus" type="Bus"/>
+	<vehicle id="veh_26_bus" type="Bus"/>
+	<vehicle id="veh_27_bus" type="Bus"/>
+	<vehicle id="veh_28_bus" type="Bus"/>
+	<vehicle id="veh_29_bus" type="Bus"/>
+	<vehicle id="veh_30_bus" type="Bus"/>
+	<vehicle id="veh_31_bus" type="Bus"/>
+	<vehicle id="veh_32_bus" type="Bus"/>
+	<vehicle id="veh_33_bus" type="Bus"/>
+	<vehicle id="veh_34_bus" type="Bus"/>
+	<vehicle id="veh_35_bus" type="Bus"/>
+	<vehicle id="veh_36_bus" type="Bus"/>
+	<vehicle id="veh_37_bus" type="Bus"/>
+	<vehicle id="veh_38_bus" type="Bus"/>
+	<vehicle id="veh_39_bus" type="Bus"/>
+	<vehicle id="veh_40_bus" type="Bus"/>
+	<vehicle id="veh_41_bus" type="Bus"/>
+	<vehicle id="veh_42_bus" type="Bus"/>
+	<vehicle id="veh_43_bus" type="Bus"/>
+	<vehicle id="veh_44_bus" type="Bus"/>
+	<vehicle id="veh_45_rail" type="Rail"/>
+	<vehicle id="veh_46_rail" type="Rail"/>
+	<vehicle id="veh_47_rail" type="Rail"/>
+	<vehicle id="veh_48_rail" type="Rail"/>
+	<vehicle id="veh_49_rail" type="Rail"/>
+	<vehicle id="veh_50_rail" type="Rail"/>
+	<vehicle id="veh_51_rail" type="Rail"/>
+	<vehicle id="veh_52_rail" type="Rail"/>
+	<vehicle id="veh_53_rail" type="Rail"/>
+	<vehicle id="veh_54_rail" type="Rail"/>
+	<vehicle id="veh_55_rail" type="Rail"/>
+	<vehicle id="veh_56_rail" type="Rail"/>
+	<vehicle id="veh_57_rail" type="Rail"/>
+	<vehicle id="veh_58_rail" type="Rail"/>
+	<vehicle id="veh_59_rail" type="Rail"/>
+	<vehicle id="veh_60_rail" type="Rail"/>
+	<vehicle id="veh_61_rail" type="Rail"/>
+	<vehicle id="veh_62_rail" type="Rail"/>
+	<vehicle id="veh_63_rail" type="Rail"/>
+	<vehicle id="veh_64_rail" type="Rail"/>
+	<vehicle id="veh_65_rail" type="Rail"/>
+	<vehicle id="veh_66_rail" type="Rail"/>
+	<vehicle id="veh_67_rail" type="Rail"/>
+	<vehicle id="veh_68_rail" type="Rail"/>
+	<vehicle id="veh_69_rail" type="Rail"/>
+	<vehicle id="veh_70_rail" type="Rail"/>
+	<vehicle id="veh_71_rail" type="Rail"/>
+	<vehicle id="veh_72_rail" type="Rail"/>
+	<vehicle id="veh_73_rail" type="Rail"/>
+	<vehicle id="veh_74_rail" type="Rail"/>
+	<vehicle id="veh_75_rail" type="Rail"/>
+	<vehicle id="veh_76_rail" type="Rail"/>
+	<vehicle id="veh_77_rail" type="Rail"/>
+	<vehicle id="veh_78_rail" type="Rail"/>
+	<vehicle id="veh_79_rail" type="Rail"/>
+	<vehicle id="veh_80_rail" type="Rail"/>
+	<vehicle id="veh_81_rail" type="Rail"/>
+	<vehicle id="veh_82_rail" type="Rail"/>
+	<vehicle id="veh_83_rail" type="Rail"/>
+	<vehicle id="veh_84_rail" type="Rail"/>
+	<vehicle id="veh_85_rail" type="Rail"/>
+	<vehicle id="veh_86_rail" type="Rail"/>
+	<vehicle id="veh_87_rail" type="Rail"/>
+	<vehicle id="veh_88_rail" type="Rail"/>
+	<vehicle id="veh_89_rail" type="Rail"/>
+	<vehicle id="veh_90_rail" type="Rail"/>
+	<vehicle id="veh_91_rail" type="Rail"/>
+	<vehicle id="veh_92_rail" type="Rail"/>
+	<vehicle id="veh_93_rail" type="Rail"/>
+	<vehicle id="veh_94_rail" type="Rail"/>
+	<vehicle id="veh_95_rail" type="Rail"/>
+	<vehicle id="veh_96_rail" type="Rail"/>
+	<vehicle id="veh_97_rail" type="Rail"/>
+	<vehicle id="veh_98_rail" type="Rail"/>
+	<vehicle id="veh_99_rail" type="Rail"/>
+	<vehicle id="veh_100_rail" type="Rail"/>
+	<vehicle id="veh_101_rail" type="Rail"/>
+	<vehicle id="veh_102_rail" type="Rail"/>
+	<vehicle id="veh_103_rail" type="Rail"/>
+	<vehicle id="veh_104_rail" type="Rail"/>
+	<vehicle id="veh_105_rail" type="Rail"/>
+	<vehicle id="veh_106_rail" type="Rail"/>
+	<vehicle id="veh_107_rail" type="Rail"/>
+	<vehicle id="veh_108_rail" type="Rail"/>
+	<vehicle id="veh_109_rail" type="Rail"/>
+	<vehicle id="veh_110_rail" type="Rail"/>
+	<vehicle id="veh_111_rail" type="Rail"/>
+	<vehicle id="veh_112_rail" type="Rail"/>
+	<vehicle id="veh_113_rail" type="Rail"/>
+	<vehicle id="veh_114_bus" type="Bus"/>
+	<vehicle id="veh_115_bus" type="Bus"/>
+	<vehicle id="veh_116_bus" type="Bus"/>
+	<vehicle id="veh_117_bus" type="Bus"/>
+	<vehicle id="veh_118_bus" type="Bus"/>
+	<vehicle id="veh_119_bus" type="Bus"/>
+	<vehicle id="veh_120_bus" type="Bus"/>
+	<vehicle id="veh_121_bus" type="Bus"/>
+	<vehicle id="veh_122_bus" type="Bus"/>
+	<vehicle id="veh_123_bus" type="Bus"/>
+	<vehicle id="veh_124_bus" type="Bus"/>
+	<vehicle id="veh_125_bus" type="Bus"/>
+	<vehicle id="veh_126_bus" type="Bus"/>
+	<vehicle id="veh_127_bus" type="Bus"/>
+	<vehicle id="veh_128_bus" type="Bus"/>
+	<vehicle id="veh_129_bus" type="Bus"/>
+	<vehicle id="veh_130_bus" type="Bus"/>
+	<vehicle id="veh_131_bus" type="Bus"/>
+	<vehicle id="veh_132_bus" type="Bus"/>
+	<vehicle id="veh_133_bus" type="Bus"/>
+	<vehicle id="veh_134_bus" type="Bus"/>
+	<vehicle id="veh_135_bus" type="Bus"/>
+	<vehicle id="veh_136_bus" type="Bus"/>
+	<vehicle id="veh_137_bus" type="Bus"/>
+	<vehicle id="veh_138_bus" type="Bus"/>
+	<vehicle id="veh_139_bus" type="Bus"/>
+	<vehicle id="veh_140_bus" type="Bus"/>
+	<vehicle id="veh_141_bus" type="Bus"/>
+	<vehicle id="veh_142_bus" type="Bus"/>
+</vehicleDefinitions>
